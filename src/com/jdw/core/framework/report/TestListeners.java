@@ -13,6 +13,7 @@ public class TestListeners implements ITestListener
 	public void onTestStart(ITestResult result)
 	{
 		Reporter.log(result.getName()+" --->Test script is started : ");
+		System.out.println("Test");
 	}
 
 	@Override
